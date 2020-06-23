@@ -1,0 +1,1401 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/********************** 
+Header Section Code start
+***********************/
+
+.header-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../picture/banner.png) center top no-repeat;
+    background-size: cover;
+}
+
+.header-section .bg-light {
+    background-color: transparent!important;
+}
+
+.header-section .navbar-brand .logo {
+    width: 110px;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: url(../picture/boder.png) center bottom no-repeat;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 22px;
+    font-weight: 600;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #511de5;
+    background: url(../picture/boder.png) center bottom no-repeat;
+}
+
+.banner {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.banner-inner {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.banner-inner h4 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.banner-inner h2 {
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.banner-inner p {
+    color: #8c8c8d;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.btn-inner .btn-primary {
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 1px;
+}
+
+.btn-inner .btn-primary:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+.btn-inner .btn-secondary {
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #4d4d53;
+    border-radius: 1px;
+    margin-left: 10px;
+}
+
+.btn-inner .btn-secondary:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+
+/********************** 
+Header Section code End
+***********************/
+
+
+/********************** 
+Features Section code Start
+***********************/
+
+.features-section {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.features-title {
+    width: 100%;
+    text-align: center;
+}
+
+.features-title h6 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.features-title h4 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    color: black;
+}
+
+.features-inner {
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.features-inner h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.features-inner p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.features-inner .circle {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0px auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    margin-bottom: 19px;
+}
+
+
+/********************** 
+Features Section code End
+***********************/
+
+
+/********************** 
+About Section code Start
+***********************/
+
+.about-section {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.about-inner {
+    width: 100%;
+}
+
+.inner-about {
+    width: 100%;
+}
+
+.inner-about p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.inner-about ul {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.inner-about ul li {
+    display: block;
+    list-style: none;
+    margin: 5px 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+}
+
+.inner-about ul li img {
+    margin-right: 10px;
+}
+
+.inner-about .title {
+    width: 100%;
+}
+
+.inner-about .title h6 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.inner-about .title h4 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    color: black;
+}
+
+
+/********************** 
+About long Section code End
+***********************/
+
+
+/********************** 
+About short Section code Start
+***********************/
+
+.about-short {
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0px;
+    background: #f2f2f2;
+}
+
+.about-short .inner-about {
+    width: 100%;
+}
+
+.about-short .inner-about p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.about-short .inner-about .title {
+    width: 100%;
+}
+
+.about-short .inner-about .title h6 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.about-short .inner-about .title h4 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    color: black;
+}
+
+
+/********************** 
+About short Section code End
+***********************/
+
+
+/********************** 
+Testimonials Section code Start
+
+***********************/
+
+.testimonials-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../picture/testimonials.png) center bottom no-repeat;
+    background-size: cover;
+    
+}
+
+.testimonials-section .testimonials-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.testimonials-section .testimonials-title h6 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.testimonials-section .testimonials-title h4 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+.testimonials-section .owl-carousel .item {
+    padding: 20px 30px 20px 0px;
+}
+
+.testimonials-section .owl-carousel .item h4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.testimonials-section .owl-carousel .item .media{
+    margin-top: 35px;
+    margin-bottom: 70px;
+
+}
+
+.testimonials-section .owl-carousel .item .media img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testimonials-section .owl-carousel .item .media-body{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.testimonials-section .owl-carousel .item .media-body h5{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.testimonials-section .owl-carousel .item .media-body p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/********************** 
+Testimonials Section code End
+***********************/
+
+
+/********************** 
+  Eye Section code Start
+***********************/
+
+.Eye-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../picture/12.png) center bottom no-repeat;
+    background-size: cover;
+}
+
+.Eye-inner {
+    width: 100%;
+}
+
+.Eye-inner h4 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.Eye-inner span {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.Eye-section .btn-inner .btn-primary {
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 1px;
+    margin-left: 10px;
+}
+
+.Eye-section .btn-inner .btn-primary:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+.Eye-section .btn-inner .btn-secondary {
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #4d4d53;
+    border-radius: 1px;
+}
+
+.Eye-section .btn-inner .btn-secondary:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    transition: 2s;
+}
+
+
+/********************** 
+  Eye Section code End
+***********************/
+
+
+/********************** 
+  Pricings Section code Start
+***********************/
+
+.Pricings-section {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.Pricings-section .Pricings-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Pricings-section .Pricings-title h6 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.Pricings-section .Pricings-title h4 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    color: black;
+}
+
+.Pricings-section .card{
+     text-align: center;
+}
+
+.Pricings-section .card-body{
+     padding: 0px 0px;
+}
+
+.Pricings-section .card .card-header {
+   
+    
+    font-size: 24px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background: transparent;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 25px 0px;
+}
+
+.Pricings-section .card .card-body{
+    
+}
+.Pricings-section .card .card-body .card-title {
+    width: 100%;
+    padding: 30px 0px;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+.Pricings-section .card .card-body .card-title h2 {
+    font-size: 34px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 0px;
+    text-transform: uppercase;
+    
+}
+
+.Pricings-section .card .card-body .card-title p {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 400;
+    margin: 0px;
+    text-transform: unset;
+}
+
+
+
+
+
+.Pricings-section .card .card-text {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+
+}
+
+.Pricings-section .card .card-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #cfcfcf;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.Pricings-section .card .card-text p span{
+    color: #0099cc;
+    font-weight: 700;
+}
+
+.Pricings-section .btn-inner {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Pricings-section .card .btn-inner .btn-primary {
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #008ed6;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 1px;
+}
+
+.Pricings-section .card .btn-inner .btn-primary:hover {
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #e0e0e0;
+    transition: 2s;
+}
+
+.Pricings-section .card:hover .btn-inner .btn-primary {
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #e0e0e0;
+    transition: 2s;
+}
+
+.Pricings-section .card:hover .card-header {
+    color: #008ed6;
+}
+
+.Pricings-section .card:hover .card-title {
+    color: white;
+    background: #008ed6;
+    background-size: cover;
+}
+.Pricings-section .card:hover .card-title h2, .Pricings-section .card:hover .card-title p {
+    color: white;
+}
+
+
+/********************** 
+  Pricings Section code End
+***********************/
+
+   /********************** 
+  Contact Section code Start
+***********************/
+
+.Contact-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ededed;
+}
+
+.Contact-section .Contact-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Contact-section .Contact-title h6 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.Contact-section .Contact-title h4 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    color: black;
+}
+
+.contact-inner{
+    width: 100%;
+    text-align: center;
+}
+.Contact-section .contact-inner img{
+    width: 25px;
+    margin-bottom: 30px;
+}
+.Contact-section .contact-inner p {
+    font-size: 16px;
+    line-height: 24px
+    font-weight: 400;
+    color: #000;
+}
+
+.main-form{
+    width: 100%;
+    padding: 70px 50px;
+    background: #000;
+    margin-top: 40px;
+}
+.main-form .form-group{
+    margin: 10px 0px;
+}
+.main-form .form-group .form-control{
+    background: transparent;
+    border: 1px solid #444348;
+    color: #444348;
+    font-size: 14px;
+    padding: 12px;
+    height: auto !important;
+    margin-bottom: 25px;
+}
+
+.main-form .form-group .form-group textarea{
+    width: 100%;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #444348;
+    color: #444348;
+    font-size: 14px;
+    padding: 10px;
+    height: 185px !important;
+}
+
+.main-form .form-group .form-group .btn-primary {
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #444348;
+    border-radius: 1px;
+}
+.main-form .form-group .form-group .btn-primary:hover {
+    color: #008ed6;
+    background: #fff ;
+    border: 1px solid #444348;
+    transition: 2s;
+}
+
+
+    /********************** 
+  Contact Section code End
+***********************/
+
+/********************** 
+  Map Section code start
+***********************/
+
+.map-section{
+    width: 100%;
+    padding: 180px 0px;
+    background: url(../picture/map.png) center bottom no-repeat;
+    background-size: cover;
+    margin-top: -170px;
+}
+/********************** 
+  Map Section code End
+***********************/
+
+/********************** 
+Footer Section Code Start
+***********************/
+
+.footer-section{
+    width: 100%;
+    padding: 50px 0px;
+    background: url(../picture/12.png) center bottom no-repeat;
+    background-size: cover;
+}
+
+.footer-section .social-icon p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #999999;
+        margin-top: 5px;
+        text-transform: uppercase;
+
+    }
+
+
+
+
+.social-icon{
+    width: 100%;
+    text-align: center;
+}
+.social-icon ul{
+
+}
+
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+.social-icon ul li a{
+    text-align: center;
+    margin: 10px;
+}
+
+.social-icon ul li a i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #444348;
+    border-radius: 100%;
+    transition: 1s;
+
+
+}
+.social-icon ul li a i:hover{
+    background: #08c;
+    color: #fff;
+    transition: 1s;
+}
+
+
+
+
+/********************** 
+Footer Section Code End
+***********************/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .banner-inner h4 {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.banner-inner h2 {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.banner-inner p {
+    color: #8c8c8d;
+    font-size: 9px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.btn-inner .btn-primary {
+    padding: 10px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 1px;
+}
+
+.btn-inner .btn-secondary {
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #4d4d53;
+    border-radius: 1px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.features-title h6 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+.features-title h4 {
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 400;
+    color: black;
+}
+
+.features-inner {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.features-inner .circle {
+    width: 83px;
+    height: 83px;
+    line-height: 83px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.about-section {
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.about-inner1 img {
+
+    width: 280px;
+    height: 288px;
+
+}
+
+.inner-about .title h6 {
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+.inner-about .title h4 {
+    font-size: 25px;
+    line-height: 26px;
+    font-weight: 400;
+    color: black;
+}
+
+.inner-about p {
+    font-size: 9px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.inner-about ul li {
+    display: block;
+    list-style: none;
+    margin: 5px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700px;
+    color: black;
+}
+
+.about-short .inner-about .title h6 {
+    font-size: 9px;
+    line-height: 15px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+.about-short .inner-about .title h4 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+}
+.about-short .inner-about p {
+    font-size: 9px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.about-inner img{
+    margin-left: -45px;
+    margin-top: -30px;
+    width: 370px;
+}
+
+.testimonials-section .owl-carousel .item h4 {
+    font-size: 9px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.testimonials-section .owl-carousel .item .media-body h5 {
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.testimonials-section .owl-carousel .item .media-body p {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.testimonials-section .owl-carousel .item .media {
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+.testimonials-section .owl-carousel .item .media img {
+    width: 44px;
+    border-radius: 50%;
+}
+.testimonials-section .owl-carousel .item .media-body {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Eye-inner h4 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+ 
+ .Eye-inner span {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.Eye-section .btn-inner .btn-secondary {
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #4d4d53;
+    border-radius: 1px;
+}
+.Eye-section .btn-inner .btn-primary {
+    padding: 10px 31px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 1px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.Pricings-section .card {
+    text-align: center;
+    margin-bottom: 30px;
+    height: ;
+}
+
+.contact-inner {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social-icon ul li a {
+    text-align: center;
+    margin: 0px;
+}
+.footer-section .social-icon p {
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+  
+}
+
+@media (min-width: 414px) and (max-width: 736px){
+
+.btn-inner .btn-secondary {
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #4d4d53;
+    border-radius: 1px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .banner-inner h2 {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.banner-inner p {
+    color: #8c8c8d;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.btn-inner .btn-primary {
+
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 1px;
+
+}
+.btn-inner .btn-secondary {
+
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #4d4d53;
+    border-radius: 1px;
+    margin-left: 10px;
+
+}
+.features-inner {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+.features-inner .circle {
+    width: 80px;
+    height: 80px;
+    line-height: 74px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-bottom: 18px;
+}
+
+.inner-about .title h4 {
+    font-size: 33px;
+    line-height: 35px;
+    font-weight: 400;
+    color: black;
+}
+
+.about-short {
+    width: 100%;
+    /* height: 0px; */
+    padding: 80px 0px;
+    background: #f2f2f2;
+}
+
+.about-short .inner-about .title h4 {
+    font-size: 33px;
+    line-height: 35px;
+    font-weight: 400;
+    color: black;
+}
+.about-inner img{
+    width: 450px;
+    height: 350px;
+}
+.Eye-inner h4 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.Eye-inner span {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.testimonials-section .owl-carousel .item h4 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.Pricings-section .card {
+    text-align: center;
+    margin-bottom: 45px;
+    width: 300px;
+    margin-left: 80px;
+}
+.contact-inner {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ .banner-inner h2 {
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.banner-inner p {
+    color: #8c8c8d;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.features-inner .circle {
+    width: 70px;
+    height: 70px;
+    line-height: 68px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+.features-inner p {
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.features-inner h4 {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 400;
+    color: black;
+}
+.about-inner1 img {
+
+    width: 365px;
+    height: 430px;
+
+}
+
+.inner-about .title h4 {
+
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.inner-about p {
+
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+
+}
+.inner-about ul li {
+
+    display: block;
+    list-style: none;
+    margin: 5px 0px;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+
+}
+
+.about-short {
+
+    width: 100%;
+    height: 400px;
+    padding: 80px 0px;
+    background: #f2f2f2;
+
+}
+
+.about-short .inner-about .title h4 {
+
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: 400;
+    color: black;
+
+}
+.about-short .inner-about p {
+
+    font-size: 9px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+
+}
+
+.about-inner img {
+
+    width: 390px;
+    height: 300px;
+
+}
+.Eye-inner h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 7px;
+}
+.Eye-inner span {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.btn-inner {
+    margin-left: -25px;
+}
+
+.Eye-section .btn-inner .btn-secondary {
+    padding: 6px 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #4d4d53;
+    border-radius: 1px;
+}
+
+.Eye-section .btn-inner .btn-primary {
+    padding: 6px 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 1px;
+    margin-left: 8px;
+}
+
+.Pricings-section .card .card-header {
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background: transparent;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.Pricings-section .card .card-text p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #cfcfcf;
+    margin-top: -18px;
+}
+
+.Pricings-section .card .btn-inner .btn-primary {
+    padding: 5px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #008ed6;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 1px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.Contact-section .contact-inner img {
+    margin-bottom: 30px;
+}
+
+.main-form {
+    width: 100%;
+    padding: 15px 29px;
+    background: #000;
+    margin-top: 30px;
+}
+
+.main-form .form-group .form-group .btn-primary {
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #444348;
+    border-radius: 1px;
+}
+.social-icon ul li a {
+    text-align: center;
+    margin: -3px;
+}
+.footer-section .social-icon p {
+    font-size: 9px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: -11px;
+    text-transform: uppercase;
+}
+
+  
+}
+
+
+
